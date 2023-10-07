@@ -7,6 +7,7 @@ class GPS implements Car {
     public String getDescription() {
         return car.getDescription() + ", gps";
     }
+
     public double getCost() {
         return car.getCost() + 1000.20;
     }

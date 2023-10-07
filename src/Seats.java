@@ -1,6 +1,5 @@
 class Seats implements Car {
     private Car car;
-
     public Seats(Car car) {
         this.car = car;
     }

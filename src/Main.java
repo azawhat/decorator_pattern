@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Car baseCar = new BasicCar();
         Car gpsCar = new GPS(baseCar);
         Car leatherSeatsCar = new Seats(gpsCar);
